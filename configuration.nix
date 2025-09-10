@@ -79,7 +79,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.a = {
+  users.users.hyperserver = {
     isNormalUser = true;
     description = "hyperserver";
     extraGroups = [ "networkmanager" "wheel" ];
